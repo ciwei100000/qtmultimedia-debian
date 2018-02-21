@@ -181,6 +181,10 @@ usr/include/*/qt5/QtMultimedia/qvideoprobe.h
 usr/include/*/qt5/QtMultimedia/qvideorenderercontrol.h
 usr/include/*/qt5/QtMultimedia/qvideosurfaceformat.h
 usr/include/*/qt5/QtMultimedia/qvideowindowcontrol.h
+usr/include/*/qt5/QtMultimediaGstTools/QtMultimediaGstTools
+usr/include/*/qt5/QtMultimediaGstTools/QtMultimediaGstToolsDepends
+usr/include/*/qt5/QtMultimediaGstTools/QtMultimediaGstToolsVersion
+usr/include/*/qt5/QtMultimediaGstTools/qtmultimediagsttoolsversion.h
 usr/include/*/qt5/QtMultimediaQuick/QtMultimediaQuick
 usr/include/*/qt5/QtMultimediaQuick/QtMultimediaQuickDepends
 usr/include/*/qt5/QtMultimediaQuick/QtMultimediaQuickVersion
@@ -204,12 +208,12 @@ usr/lib/*/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake
 usr/lib/*/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake
 usr/lib/*/libQt5Multimedia.prl
 usr/lib/*/libQt5Multimedia.so
+usr/lib/*/libQt5MultimediaGstTools.prl
+usr/lib/*/libQt5MultimediaGstTools.so
 usr/lib/*/libQt5MultimediaQuick.prl
 usr/lib/*/libQt5MultimediaQuick.so
 usr/lib/*/libQt5MultimediaWidgets.prl
 usr/lib/*/libQt5MultimediaWidgets.so
-usr/lib/*/libqgsttools_p.prl
-usr/lib/*/libqgsttools_p.so
 usr/lib/*/pkgconfig/Qt5Multimedia.pc
 usr/lib/*/pkgconfig/Qt5MultimediaWidgets.pc
 usr/lib/*/qt5/mkspecs/modules/qt_lib_multimedia.pri

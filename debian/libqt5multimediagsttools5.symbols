@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 5.9.1 amd64 i386 kfreebsd-amd64 kfreebsd-i386 sh4
-libqgsttools_p.so.1 libqgsttools-p1 #MINVER#
+libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  (optional=templinst)_Z17qRegisterMetaTypeI17QGstreamerMessageEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 5.6.0~beta
  _Z18qt_gst_video_sinksv@Base 5.6.0~beta
  _Z19qt_gst_pad_get_capsP7_GstPad@Base 5.6.0~beta
