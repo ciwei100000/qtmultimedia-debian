@@ -37,7 +37,7 @@ override_dh_auto_install-arch:
 	# Remove private headers.
 	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimedia/*/QtMultimedia/private
 	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaWidgets/*/QtMultimediaWidgets/private
-	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaQuick_p
+	rm -rfv debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtMultimediaQuick/*/QtMultimediaQuick/private
 
 	# Remove some other private stuff.
 	rm -fv debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_multimedia_private.pri

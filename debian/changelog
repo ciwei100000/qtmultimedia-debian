@@ -8,6 +8,8 @@ qtmultimedia-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Add support for the nodoc build profile.
   * Update Vcs fields for migration to salsa.debian.org.
   * Update debian/copyright.
+  * Rename libqt5multimediaquick-p5 package to libqt5multimediaquick5,
+    following upstream change in 5.10.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Feb 2018 21:13:21 +0300
 
