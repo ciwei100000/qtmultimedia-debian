@@ -12,6 +12,7 @@ qtmultimedia-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
     following upstream change in 5.10.0.
   * Rename libqgsttools-p1 package to libqt5multimediagsttools5,
     following upstream change in 5.10.0.
+  * Remove no longer needed code to fix pkgconfig files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Feb 2018 21:13:21 +0300
 
