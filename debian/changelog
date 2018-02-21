@@ -6,6 +6,7 @@ qtmultimedia-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.10.1.
   * Use dh_auto_configure provided by debhelper (closes: #880995).
   * Add support for the nodoc build profile.
+  * Update Vcs fields for migration to salsa.debian.org.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Feb 2018 21:13:21 +0300
 
