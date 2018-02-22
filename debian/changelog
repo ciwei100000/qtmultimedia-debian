@@ -14,6 +14,7 @@ qtmultimedia-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
     following upstream change in 5.10.0.
   * Remove no longer needed code to fix pkgconfig files.
   * Use dh_missing instead of deprecated dh_install --fail-missing.
+  * Update symbols files from the current build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Feb 2018 21:13:21 +0300
 
