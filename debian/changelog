@@ -1,8 +1,8 @@
-qtmultimedia-opensource-src (5.9.4-0ubuntu1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.9.4-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 24 Feb 2018 13:02:54 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 24 Feb 2018 13:06:30 -0600
 
 qtmultimedia-opensource-src (5.9.3-0ubuntu3) bionic; urgency=medium
 
