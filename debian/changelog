@@ -1,6 +1,7 @@
 qtmultimedia-opensource-src (5.11.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * Run update-maintainer for an upload to Ubuntu.
+  * Install an architecture-specific file on arm64.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 30 Jun 2018 18:01:07 -0500
 
