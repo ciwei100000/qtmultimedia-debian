@@ -5,6 +5,7 @@ qtmultimedia-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
   * Update debian/libqt5multimedia5.symbols from buildds’ logs.
   * Bump Qt build-dependencies to 5.11.2.
   * Update debian/copyright.
+  * Simplify test command, setting QT_LOGGING_RULES is no longer needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Oct 2018 18:39:40 +0300
 
