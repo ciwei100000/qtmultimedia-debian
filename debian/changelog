@@ -4,6 +4,7 @@ qtmultimedia-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update debian/libqt5multimedia5.symbols from buildds’ logs.
   * Bump Qt build-dependencies to 5.11.2.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Oct 2018 18:39:40 +0300
 
