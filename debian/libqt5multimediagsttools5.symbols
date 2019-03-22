@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.10.1 amd64 i386
+# SymbolsHelper-Confirmed: 5.12.2 amd64
 libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.10.1
  _Z18qt_gst_video_sinksv@Qt_5_PRIVATE_API 5.10.1
@@ -64,6 +64,21 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN19QGstreamerBusHelperD0Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN19QGstreamerBusHelperD1Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN19QGstreamerBusHelperD2Ev@Qt_5_PRIVATE_API 5.10.1
+ _ZN21QGstVideoRendererSink10class_initEPvS0_@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink10createSinkEP21QAbstractVideoSurface@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink10setSurfaceEP21QAbstractVideoSurface@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink10show_frameEP13_GstVideoSinkP10_GstBuffer@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink12change_stateEP11_GstElement14GstStateChange@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink13instance_initEP14_GTypeInstancePv@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink18propose_allocationEP12_GstBaseSinkP9_GstQuery@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink23handleShowPrerollChangeEP8_GObjectP11_GParamSpecPv@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink4stopEP12_GstBaseSink@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink6unlockEP12_GstBaseSink@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink8finalizeEP8_GObject@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink8get_capsEP12_GstBaseSinkP8_GstCaps@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink8get_typeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink8set_capsEP12_GstBaseSinkP8_GstCaps@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink9base_initEPv@Qt_5_PRIVATE_API 5.12.2
  _ZN21QGstreamerBufferProbe11bufferProbeEP7_GstPadP16_GstPadProbeInfoPv@Qt_5_PRIVATE_API 5.10.1
  _ZN21QGstreamerBufferProbe11probeBufferEP10_GstBuffer@Qt_5_PRIVATE_API 5.10.1
  _ZN21QGstreamerBufferProbe13addProbeToPadEP7_GstPadb@Qt_5_PRIVATE_API 5.10.1
@@ -102,11 +117,106 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN23QGstVideoRendererPlugin16staticMetaObjectE@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGstVideoRendererPluginC1EP7QObject@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGstVideoRendererPluginC2EP7QObject@Qt_5_PRIVATE_API 5.10.1
+ _ZN23QGstreamerPlayerControl10processEOSEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl11playOrPauseEN12QMediaPlayer5StateE@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl11qt_metacastEPKc@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl11setPositionEx@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl14setVideoOutputEP7QObject@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl15setPlaybackRateEd@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl16staticMetaObjectE@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl17popAndNotifyStateEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl17setBufferProgressEi@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl17updateMediaStatusEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl18handleInvalidMediaEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl18updateSessionStateEN12QMediaPlayer5StateE@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl19handleResourcesLostEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl21handleResourcesDeniedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl22handleResourcesGrantedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl4playEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl4stopEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl5pauseEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl8setMediaERK13QMediaContentP9QIODevice@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl8setMutedEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl9pushStateEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControl9setVolumeEi@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControlC1EP23QGstreamerPlayerSessionP7QObject@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControlC2EP23QGstreamerPlayerSessionP7QObject@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControlD0Ev@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControlD1Ev@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerControlD2Ev@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11loadFromUriERK15QNetworkRequest@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11qt_metacastEPKc@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11removeProbeEP27QGstreamerAudioProbeControl@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11removeProbeEP27QGstreamerVideoProbeControl@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11setPipelineEP11_GstElement@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11setSeekableEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11tagsChangedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11updateMutedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession12invalidMediaEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession12stateChangedEN12QMediaPlayer5StateE@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession12updateVolumeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession13volumeChangedEi@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession14getStreamsInfoEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession14loadFromStreamERK15QNetworkRequestP9QIODevice@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession14streamsChangedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession14updateDurationEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession15durationChangedEx@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession15endOfMediaResetEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession15pipelineChangedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession15positionChangedEx@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession15rendererChangedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession15seekableChangedEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession15setActiveStreamEN20QMediaStreamsControl10StreamTypeEi@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession15setPlaybackRateEd@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession16flushVideoProbesEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession16playbackFinishedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession16setVideoRendererEP7QObject@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession16staticMetaObjectE@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession17handleMutedChangeEP8_GObjectP11_GParamSpecPv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession17mutedStateChangedEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession17processBusMessageERK17QGstreamerMessage@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession17resumeVideoProbesEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession17showPrerollFramesEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession18handleElementAddedEP7_GstBinP11_GstElementPS_@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession18handleVolumeChangeEP8_GObjectP11_GParamSpecPv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession19addAudioBufferProbeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession19addVideoBufferProbeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession19handleStreamsChangeEP7_GstBinPv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession19playbackRateChangedEd@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession19playbinNotifySourceEP8_GObjectP11_GParamSpecPv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession19processInvalidMediaEN12QMediaPlayer5ErrorERK7QString@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession19updateVideoRendererEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession20handleAutoplugSelectEP7_GstBinP7_GstPadP8_GstCapsP18_GstElementFactoryPS_@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession21audioAvailableChangedEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession21videoAvailableChangedEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession22configureAppSrcElementEP8_GObjectS1_P11_GParamSpecPS_@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession22removeAudioBufferProbeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession22removeVideoBufferProbeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession23finishVideoOutputChangeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession24bufferingProgressChangedEi@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession24updateVideoResolutionTagEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession4playEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession4seekEx@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession4stopEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession5errorEiRK7QString@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession5pauseEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession8addProbeEP27QGstreamerAudioProbeControl@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession8addProbeEP27QGstreamerVideoProbeControl@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession8setMutedEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession9setVolumeEi@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSessionC1EP7QObject@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSessionC2EP7QObject@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSessionD0Ev@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSessionD1Ev@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSessionD2Ev@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerVideoRenderer10setSurfaceEP21QAbstractVideoSurface@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGstreamerVideoRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGstreamerVideoRenderer11qt_metacastEPKc@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGstreamerVideoRenderer11sinkChangedEv@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGstreamerVideoRenderer12readyChangedEb@Qt_5_PRIVATE_API 5.10.1
+ _ZN23QGstreamerVideoRenderer12setVideoSinkEP11_GstElement@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerVideoRenderer12stopRendererEv@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGstreamerVideoRenderer16staticMetaObjectE@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGstreamerVideoRenderer18handleFormatChangeEv@Qt_5_PRIVATE_API 5.10.1
@@ -160,6 +270,7 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN28QGstreamerVideoWidgetControl11sinkChangedEv@Qt_5_PRIVATE_API 5.10.1
  _ZN28QGstreamerVideoWidgetControl11videoWidgetEv@Qt_5_PRIVATE_API 5.10.1
  _ZN28QGstreamerVideoWidgetControl12readyChangedEb@Qt_5_PRIVATE_API 5.10.1
+ _ZN28QGstreamerVideoWidgetControl12setVideoSinkEP11_GstElement@Qt_5_PRIVATE_API 5.12.2
  _ZN28QGstreamerVideoWidgetControl12stopRendererEv@Qt_5_PRIVATE_API 5.10.1
  _ZN28QGstreamerVideoWidgetControl13setBrightnessEi@Qt_5_PRIVATE_API 5.10.1
  _ZN28QGstreamerVideoWidgetControl13setFullScreenEb@Qt_5_PRIVATE_API 5.10.1
@@ -237,6 +348,35 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZNK21QGstreamerVideoWindow5winIdEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK21QGstreamerVideoWindow8contrastEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK23QGstVideoRendererPlugin10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
+ _ZNK23QGstreamerPlayerControl10isSeekableEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl10metaObjectEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl11mediaStatusEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl11mediaStreamEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl12bufferStatusEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl12playbackRateEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl16isAudioAvailableEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl16isVideoAvailableEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl23availablePlaybackRangesEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl5mediaEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl5stateEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl6volumeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl7isMutedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl8durationEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl8positionEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerControl9resourcesEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession10isSeekableEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession10metaObjectEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession12activeStreamEN20QMediaStreamsControl10StreamTypeE@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession12isLiveSourceEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession12playbackRateEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession16isAudioAvailableEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession16isVideoAvailableEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession23availablePlaybackRangesEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession6volumeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession7isMutedEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession7playbinEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession8durationEv@Qt_5_PRIVATE_API 5.12.2
+ _ZNK23QGstreamerPlayerSession8positionEv@Qt_5_PRIVATE_API 5.12.2
  _ZNK23QGstreamerVideoRenderer10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK23QGstreamerVideoRenderer7surfaceEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK27QGstreamerAudioProbeControl10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
@@ -268,6 +408,8 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZTI21QGstreamerVideoWidget@Qt_5_PRIVATE_API 5.10.1
  _ZTI21QGstreamerVideoWindow@Qt_5_PRIVATE_API 5.10.1
  _ZTI23QGstVideoRendererPlugin@Qt_5_PRIVATE_API 5.10.1
+ _ZTI23QGstreamerPlayerControl@Qt_5_PRIVATE_API 5.12.2
+ _ZTI23QGstreamerPlayerSession@Qt_5_PRIVATE_API 5.12.2
  _ZTI23QGstreamerVideoRenderer@Qt_5_PRIVATE_API 5.10.1
  _ZTI26QGstVideoRendererInterface@Qt_5_PRIVATE_API 5.10.1
  _ZTI27QGstreamerAudioProbeControl@Qt_5_PRIVATE_API 5.10.1
@@ -284,6 +426,8 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZTS21QGstreamerVideoWidget@Qt_5_PRIVATE_API 5.10.1
  _ZTS21QGstreamerVideoWindow@Qt_5_PRIVATE_API 5.10.1
  _ZTS23QGstVideoRendererPlugin@Qt_5_PRIVATE_API 5.10.1
+ _ZTS23QGstreamerPlayerControl@Qt_5_PRIVATE_API 5.12.2
+ _ZTS23QGstreamerPlayerSession@Qt_5_PRIVATE_API 5.12.2
  _ZTS23QGstreamerVideoRenderer@Qt_5_PRIVATE_API 5.10.1
  _ZTS26QGstVideoRendererInterface@Qt_5_PRIVATE_API 5.10.1
  _ZTS27QGstreamerAudioProbeControl@Qt_5_PRIVATE_API 5.10.1
@@ -298,6 +442,8 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZTV21QGstreamerVideoWidget@Qt_5_PRIVATE_API 5.10.1
  _ZTV21QGstreamerVideoWindow@Qt_5_PRIVATE_API 5.10.1
  _ZTV23QGstVideoRendererPlugin@Qt_5_PRIVATE_API 5.10.1
+ _ZTV23QGstreamerPlayerControl@Qt_5_PRIVATE_API 5.12.2
+ _ZTV23QGstreamerPlayerSession@Qt_5_PRIVATE_API 5.12.2
  _ZTV23QGstreamerVideoRenderer@Qt_5_PRIVATE_API 5.10.1
  _ZTV27QGstreamerAudioProbeControl@Qt_5_PRIVATE_API 5.10.1
  _ZTV27QGstreamerVideoProbeControl@Qt_5_PRIVATE_API 5.10.1
@@ -308,14 +454,17 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  (c++)"non-virtual thunk to QGstreamerAudioProbeControl::probeBuffer(_GstBuffer*)@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerAudioProbeControl::probeCaps(_GstCaps*)@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerAudioProbeControl::~QGstreamerAudioProbeControl()@Qt_5_PRIVATE_API" 5.10.1
+ (c++)"non-virtual thunk to QGstreamerPlayerSession::processBusMessage(QGstreamerMessage const&)@Qt_5_PRIVATE_API" 5.12.2
  (c++)"non-virtual thunk to QGstreamerVideoProbeControl::probeBuffer(_GstBuffer*)@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerVideoProbeControl::probeCaps(_GstCaps*)@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerVideoProbeControl::~QGstreamerVideoProbeControl()@Qt_5_PRIVATE_API" 5.10.1
+ (c++)"non-virtual thunk to QGstreamerVideoRenderer::setVideoSink(_GstElement*)@Qt_5_PRIVATE_API" 5.12.2
  (c++)"non-virtual thunk to QGstreamerVideoRenderer::stopRenderer()@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerVideoRenderer::videoSink()@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerVideoRenderer::~QGstreamerVideoRenderer()@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::processBusMessage(QGstreamerMessage const&)@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::processSyncMessage(QGstreamerMessage const&)@Qt_5_PRIVATE_API" 5.10.1
+ (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::setVideoSink(_GstElement*)@Qt_5_PRIVATE_API" 5.12.2
  (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::stopRenderer()@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::videoSink()@Qt_5_PRIVATE_API" 5.10.1
  (c++)"non-virtual thunk to QGstreamerVideoWidgetControl::~QGstreamerVideoWidgetControl()@Qt_5_PRIVATE_API" 5.10.1
