@@ -5,6 +5,7 @@ qtmultimedia-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Bump Qt build-dependencies to 5.12.4.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 10 May 2019 15:47:48 -0700
 
