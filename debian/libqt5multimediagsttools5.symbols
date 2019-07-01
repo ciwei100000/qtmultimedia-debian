@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 5.12.2 amd64
 libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
+* Build-Depends-Package: qtmultimedia5-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.10.1
  _Z18qt_gst_video_sinksv@Qt_5_PRIVATE_API 5.10.1
  _Z19qt_gst_pad_get_capsP7_GstPad@Qt_5_PRIVATE_API 5.10.1

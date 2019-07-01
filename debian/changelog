@@ -8,6 +8,7 @@ qtmultimedia-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.4.
   * Simplify debian/rules by using debian/not-installed file.
   * Add support for nocheck build profile.
+  * Add Build-Depends-Package field to all symbols files.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 10 May 2019 15:47:48 -0700
 
