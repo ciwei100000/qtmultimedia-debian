@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.2 amd64
+# SymbolsHelper-Confirmed: 5.12.4 amd64
 libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
 * Build-Depends-Package: qtmultimedia5-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.10.1
@@ -158,6 +158,7 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN23QGstreamerPlayerSession12invalidMediaEv@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession12stateChangedEN12QMediaPlayer5StateE@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession12updateVolumeEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession13parsePipelineEv@Qt_5_PRIVATE_API 5.12.4
  _ZN23QGstreamerPlayerSession13volumeChangedEi@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession14getStreamsInfoEv@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession14loadFromStreamERK15QNetworkRequestP9QIODevice@Qt_5_PRIVATE_API 5.12.2

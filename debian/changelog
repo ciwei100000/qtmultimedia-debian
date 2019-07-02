@@ -9,6 +9,7 @@ qtmultimedia-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Simplify debian/rules by using debian/not-installed file.
   * Add support for nocheck build profile.
   * Add Build-Depends-Package field to all symbols files.
+  * Add one new symbol to debian/libqt5multimediagsttools5.symbols.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 10 May 2019 15:47:48 -0700
 
