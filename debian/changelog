@@ -1,4 +1,4 @@
-qtmultimedia-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.12.4-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
   * Update packaging to use doc-base as per policy 9.10.
@@ -11,7 +11,7 @@ qtmultimedia-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Add Build-Depends-Package field to all symbols files.
   * Add one new symbol to debian/libqt5multimediagsttools5.symbols.
 
- -- Scarlett Moore <sgmoore@kde.org>  Fri, 10 May 2019 15:47:48 -0700
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 02 Jul 2019 14:40:56 +0300
 
 qtmultimedia-opensource-src (5.12.2-1) experimental; urgency=medium
 
