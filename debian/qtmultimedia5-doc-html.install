@@ -1,1 +1,6 @@
-usr/share/qt5/doc/qtmultimedia/
+usr/share/qt5/doc/qtmultimedia/*.html
+usr/share/qt5/doc/qtmultimedia/images/
+usr/share/qt5/doc/qtmultimedia/qtmultimedia.index
+usr/share/qt5/doc/qtmultimedia/qtmultimedia.qhp
+usr/share/qt5/doc/qtmultimedia/qtmultimedia.qhp.sha1
+usr/share/qt5/doc/qtmultimedia/style/

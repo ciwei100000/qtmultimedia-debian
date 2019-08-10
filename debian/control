@@ -125,6 +125,8 @@ Depends: libqt5multimedia5-plugins (= ${binary:Version}),
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: qtmultimedia5-doc-html (<< 5.12.4-1~)
+Replaces: qtmultimedia5-doc-html (<< 5.12.4-1~)
 Description: Examples for Qt 5 Multimedia module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
