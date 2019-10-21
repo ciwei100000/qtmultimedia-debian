@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.4 amd64
+# SymbolsHelper-Confirmed: 5.12.5 amd64
 libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
 * Build-Depends-Package: qtmultimedia5-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.10.1
@@ -333,9 +333,11 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZNK10QGstAppSrc6streamEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK14QGstCodecsInfo12codecElementERK7QString@Qt_5_PRIVATE_API 5.10.1
  _ZNK14QGstCodecsInfo12codecOptionsERK7QString@Qt_5_PRIVATE_API 5.10.1
+ _ZNK14QGstCodecsInfo15supportedCodecsERK4QSetI7QStringE@Qt_5_PRIVATE_API 5.12.5
  _ZNK14QGstCodecsInfo15supportedCodecsEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK14QGstCodecsInfo16codecDescriptionERK7QString@Qt_5_PRIVATE_API 5.10.1
  _ZNK14QGstCodecsInfo16elementFactoriesENS_11ElementTypeE@Qt_5_PRIVATE_API 5.10.1
+ _ZNK14QGstCodecsInfo20supportedStreamTypesERK7QString@Qt_5_PRIVATE_API 5.12.5
  _ZNK15QGstVideoBuffer7mapModeEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK17QGstreamerMessage10rawMessageEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK19QGstreamerBusHelper10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
