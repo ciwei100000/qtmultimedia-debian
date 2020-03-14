@@ -3,7 +3,7 @@ Upstream-Name: qtmultimedia-everywhere-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
-Copyright: 2016-2018 The Qt Company Ltd.
+Copyright: 2016-2019 The Qt Company Ltd.
            2016 Research In Motion
            2016 Jolla Ltd.
 License: LGPL-3 or GPL-2
@@ -17,12 +17,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2012 Zoltán Balogh <zoltan.balogh@canonical.com>
            2012-2014 Timo Jyrinki <timo.jyrinki@canonical.com>
            2012-2015 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-           2013-2018 Dmitry Shachnev <mitya57@debian.org>
-License: LGPL-3 or GPL-2
-
-Files: src/gsttools/qgstreamermirtexturerenderer.cpp
-       src/multimedia/gsttools_headers/qgstreamermirtexturerenderer_p.h
-Copyright: 2016 Canonical Ltd.
+           2013-2020 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-3 or GPL-2
 
 Files: src/plugins/android/src/mediacapture/qandroidmediavideoprobecontrol.*
@@ -77,7 +72,7 @@ Files: examples/*
        src/multimedia/doc/snippets/doc_src_qtmultimedia.cpp
        src/multimedia/doc/snippets/multimedia-snippets/qsound.cpp
        src/multimediawidgets/doc/snippets/doc_src_qtmultimediawidgets.cpp
-Copyright: 2015-2017 The Qt Company Ltd.
+Copyright: 2015-2019 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: examples/multimedia/spectrum/3rdparty/fftreal/*
@@ -94,7 +89,7 @@ License: custom-fftreal
  indicated.
 
 Files: *.qdoc
-Copyright: 2015 The Qt Company Ltd.
+Copyright: 2015-2019 The Qt Company Ltd.
 License: GFDL-NIV-1.3
 
 License: LGPL-2.1
