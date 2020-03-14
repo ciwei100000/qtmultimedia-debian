@@ -1,4 +1,5 @@
 usr/include/*/qt5/QtMultimedia/5.*
+usr/include/*/qt5/QtMultimediaGstTools/5.*
 usr/include/*/qt5/QtMultimediaWidgets/5.*
 usr/include/*/qt5/QtMultimediaQuick/5.*
 usr/lib/*/cmake/Qt5Multimedia/Qt5Multimedia_*Plugin.cmake

@@ -206,6 +206,10 @@ usr/include/*/qt5/QtMultimediaWidgets/qvideowidget.h
 usr/include/*/qt5/QtMultimediaWidgets/qvideowidgetcontrol.h
 usr/lib/*/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake
 usr/lib/*/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake
+usr/lib/*/cmake/Qt5MultimediaGstTools/Qt5MultimediaGstToolsConfig.cmake
+usr/lib/*/cmake/Qt5MultimediaGstTools/Qt5MultimediaGstToolsConfigVersion.cmake
+usr/lib/*/cmake/Qt5MultimediaQuick/Qt5MultimediaQuickConfig.cmake
+usr/lib/*/cmake/Qt5MultimediaQuick/Qt5MultimediaQuickConfigVersion.cmake
 usr/lib/*/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake
 usr/lib/*/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake
 usr/lib/*/libQt5Multimedia.prl
