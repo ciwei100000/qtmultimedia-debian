@@ -1,1 +1,2 @@
 rpath_nonlinux.diff
+no_pulseaudio_dependency.diff

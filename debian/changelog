@@ -3,6 +3,8 @@ qtmultimedia-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.14.1.
+  * Backport upstream patch which allows us to drop the qtmultimedia5-dev
+    dependency on libpulse-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Mar 2020 20:01:12 +0300
 
