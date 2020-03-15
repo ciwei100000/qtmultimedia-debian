@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~rc amd64
+# SymbolsHelper-Confirmed: 5.14.1 amd64 i386
 libQt5MultimediaQuick.so.5 libqt5multimediaquick5 #MINVER#
 * Build-Depends-Package: qtmultimedia5-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
@@ -11,6 +11,7 @@ libQt5MultimediaQuick.so.5 libqt5multimediaquick5 #MINVER#
  _ZN23QDeclarativeVideoOutput11setFillModeENS_8FillModeE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN23QDeclarativeVideoOutput12filter_clearEP16QQmlListPropertyI20QAbstractVideoFilterE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN23QDeclarativeVideoOutput12filter_countEP16QQmlListPropertyI20QAbstractVideoFilterE@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN23QDeclarativeVideoOutput12setFlushModeENS_9FlushModeE@Qt_5_PRIVATE_API 5.14.1
  _ZN23QDeclarativeVideoOutput13createBackendEP13QMediaService@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN23QDeclarativeVideoOutput13filter_appendEP16QQmlListPropertyI20QAbstractVideoFilterEPS1_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN23QDeclarativeVideoOutput13sourceChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
@@ -18,6 +19,7 @@ libQt5MultimediaQuick.so.5 libqt5multimediaquick5 #MINVER#
  _ZN23QDeclarativeVideoOutput15fillModeChangedENS_8FillModeE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN23QDeclarativeVideoOutput15geometryChangedERK6QRectFS2_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN23QDeclarativeVideoOutput15updatePaintNodeEP7QSGNodePN10QQuickItem19UpdatePaintNodeDataE@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN23QDeclarativeVideoOutput16flushModeChangedEv@Qt_5_PRIVATE_API 5.14.1
  _ZN23QDeclarativeVideoOutput16releaseResourcesEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN23QDeclarativeVideoOutput16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN23QDeclarativeVideoOutput17_q_updateGeometryEv@Qt_5_PRIVATE_API 5.6.0~beta

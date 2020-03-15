@@ -1,10 +1,12 @@
-# SymbolsHelper-Confirmed: 5.12.2 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.14.1 amd64 i386
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
 * Build-Depends-Package: qtmultimedia5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.10@Qt_5.10 5.10.1
  Qt_5.11@Qt_5.11 5.11.1
  Qt_5.12@Qt_5.12 5.12.0
+ Qt_5.13@Qt_5.13 5.14.1
+ Qt_5.14@Qt_5.14 5.14.1
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -314,7 +316,9 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QSoundEffect9setSourceERK4QUrl@Qt_5 5.6.0~beta
  _ZN12QSoundEffect9setVolumeEd@Qt_5 5.6.0~beta
  _ZN12QSoundEffectC1EP7QObject@Qt_5 5.6.0~beta
+ _ZN12QSoundEffectC1ERK16QAudioDeviceInfoP7QObject@Qt_5 5.14.1
  _ZN12QSoundEffectC2EP7QObject@Qt_5 5.6.0~beta
+ _ZN12QSoundEffectC2ERK16QAudioDeviceInfoP7QObject@Qt_5 5.14.1
  _ZN12QSoundEffectD0Ev@Qt_5 5.6.0~beta
  _ZN12QSoundEffectD1Ev@Qt_5 5.6.0~beta
  _ZN12QSoundEffectD2Ev@Qt_5 5.6.0~beta
@@ -851,7 +855,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN19QPlaylistFileParser5abortEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QPlaylistFileParser5errorENS_11ParserErrorERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QPlaylistFileParser5startEP9QIODeviceRK7QString@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser5startERK13QMediaContentP9QIODevice@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN19QPlaylistFileParser5startERK13QMediaContentP9QIODeviceRK7QString@Qt_5_PRIVATE_API 5.14.1
  _ZN19QPlaylistFileParser5startERK15QNetworkRequestRK7QString@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QPlaylistFileParser7newItemERK8QVariant@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QPlaylistFileParser8finishedEv@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1589,6 +1593,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK11QVideoFrame4bitsEv@Qt_5 5.6.0~beta
  _ZNK11QVideoFrame4sizeEv@Qt_5 5.6.0~beta
  _ZNK11QVideoFrame5widthEv@Qt_5 5.6.0~beta
+ _ZNK11QVideoFrame6bufferEv@Qt_5 5.14.1
  _ZNK11QVideoFrame6handleEv@Qt_5 5.6.0~beta
  _ZNK11QVideoFrame6heightEv@Qt_5 5.6.0~beta
  _ZNK11QVideoFrame7endTimeEv@Qt_5 5.6.0~beta
@@ -1711,6 +1716,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK13QMediaContent16canonicalRequestEv@Qt_5 5.6.0~beta
  _ZNK13QMediaContent17canonicalResourceEv@Qt_5 5.6.0~beta
  _ZNK13QMediaContent6isNullEv@Qt_5 5.6.0~beta
+ _ZNK13QMediaContent7requestEv@Qt_5 5.14.1
  _ZNK13QMediaContent8playlistEv@Qt_5 5.6.0~beta
  _ZNK13QMediaContent9resourcesEv@Qt_5 5.6.0~beta
  _ZNK13QMediaContenteqERKS_@Qt_5 5.6.0~beta

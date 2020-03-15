@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.5 amd64
+# SymbolsHelper-Confirmed: 5.14.1 amd64 i386
 libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
 * Build-Depends-Package: qtmultimedia5-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.10.1
@@ -47,10 +47,8 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN15QGstVideoBufferD2Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN17QGstreamerMessageC1EP11_GstMessage@Qt_5_PRIVATE_API 5.10.1
  _ZN17QGstreamerMessageC1ERKS_@Qt_5_PRIVATE_API 5.10.1
- _ZN17QGstreamerMessageC1Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN17QGstreamerMessageC2EP11_GstMessage@Qt_5_PRIVATE_API 5.10.1
  _ZN17QGstreamerMessageC2ERKS_@Qt_5_PRIVATE_API 5.10.1
- _ZN17QGstreamerMessageC2Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN17QGstreamerMessageD1Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN17QGstreamerMessageD2Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN17QGstreamerMessageaSERKS_@Qt_5_PRIVATE_API 5.10.1
@@ -74,6 +72,7 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN21QGstVideoRendererSink18propose_allocationEP12_GstBaseSinkP9_GstQuery@Qt_5_PRIVATE_API 5.12.2
  _ZN21QGstVideoRendererSink23handleShowPrerollChangeEP8_GObjectP11_GParamSpecPv@Qt_5_PRIVATE_API 5.12.2
  _ZN21QGstVideoRendererSink4stopEP12_GstBaseSink@Qt_5_PRIVATE_API 5.12.2
+ _ZN21QGstVideoRendererSink5queryEP12_GstBaseSinkP9_GstQuery@Qt_5_PRIVATE_API 5.14.1
  _ZN21QGstVideoRendererSink6unlockEP12_GstBaseSink@Qt_5_PRIVATE_API 5.12.2
  _ZN21QGstVideoRendererSink8finalizeEP8_GObject@Qt_5_PRIVATE_API 5.12.2
  _ZN21QGstVideoRendererSink8get_capsEP12_GstBaseSinkP8_GstCaps@Qt_5_PRIVATE_API 5.12.2
@@ -146,6 +145,7 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN23QGstreamerPlayerControlD0Ev@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerControlD1Ev@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerControlD2Ev@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession11initPlaybinEv@Qt_5_PRIVATE_API 5.14.1
  _ZN23QGstreamerPlayerSession11loadFromUriERK15QNetworkRequest@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession11qt_metacastEPKc@Qt_5_PRIVATE_API 5.12.2
@@ -159,6 +159,7 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN23QGstreamerPlayerSession12stateChangedEN12QMediaPlayer5StateE@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession12updateVolumeEv@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession13parsePipelineEv@Qt_5_PRIVATE_API 5.12.4
+ _ZN23QGstreamerPlayerSession13resetElementsEv@Qt_5_PRIVATE_API 5.14.1
  _ZN23QGstreamerPlayerSession13volumeChangedEi@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession14getStreamsInfoEv@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession14loadFromStreamERK15QNetworkRequestP9QIODevice@Qt_5_PRIVATE_API 5.12.2
@@ -204,6 +205,7 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN23QGstreamerPlayerSession4stopEv@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession5errorEiRK7QString@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession5pauseEv@Qt_5_PRIVATE_API 5.12.2
+ _ZN23QGstreamerPlayerSession6setBusEP7_GstBus@Qt_5_PRIVATE_API 5.14.1
  _ZN23QGstreamerPlayerSession8addProbeEP27QGstreamerAudioProbeControl@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession8addProbeEP27QGstreamerVideoProbeControl@Qt_5_PRIVATE_API 5.12.2
  _ZN23QGstreamerPlayerSession8setMutedEb@Qt_5_PRIVATE_API 5.12.2
@@ -325,10 +327,13 @@ libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
  _ZN9QGstUtils19structureResolutionEPK13_GstStructure@Qt_5_PRIVATE_API 5.10.1
  _ZN9QGstUtils20audioFormatForSampleEP10_GstSample@Qt_5_PRIVATE_API 5.10.1
  _ZN9QGstUtils20structurePixelFormatEPK13_GstStructurePi@Qt_5_PRIVATE_API 5.10.1
+ _ZN9QGstUtils22toGStreamerOrientationERK8QVariant@Qt_5_PRIVATE_API 5.14.1
  _ZN9QGstUtils23capsCorrectedResolutionEPK8_GstCaps@Qt_5_PRIVATE_API 5.10.1
  _ZN9QGstUtils23structureFrameRateRangeEPK13_GstStructure@Qt_5_PRIVATE_API 5.10.1
  _ZN9QGstUtils24fileExtensionForMimeTypeERK7QString@Qt_5_PRIVATE_API 5.10.1
+ _ZN9QGstUtils24fromGStreamerOrientationERK8QVariant@Qt_5_PRIVATE_API 5.14.1
  _ZN9QGstUtils25structurePixelAspectRatioEPK13_GstStructure@Qt_5_PRIVATE_API 5.10.1
+ _ZN9QGstUtils9useOpenGLEv@Qt_5_PRIVATE_API 5.14.1
  _ZNK10QGstAppSrc10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK10QGstAppSrc6streamEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK14QGstCodecsInfo12codecElementERK7QString@Qt_5_PRIVATE_API 5.10.1
