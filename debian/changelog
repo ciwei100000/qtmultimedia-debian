@@ -1,3 +1,10 @@
+qtmultimedia-opensource-src (5.14.2-1) UNRELEASED; urgency=medium
+
+  [ Simon Quigley ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2020 00:57:54 -0500
+
 qtmultimedia-opensource-src (5.14.1-2) experimental; urgency=medium
 
   * Update armel and armhf specific install files.
