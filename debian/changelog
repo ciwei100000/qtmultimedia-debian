@@ -3,6 +3,7 @@ qtmultimedia-opensource-src (5.14.2-1) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * New upstream release.
   * Bump Qt build dependencies to 5.14.2.
+  * Remove reverse-applicable no_pulseaudio_dependency.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2020 00:57:54 -0500
 
