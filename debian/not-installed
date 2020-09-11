@@ -1,8 +1,9 @@
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtMultimedia/5.*
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtMultimediaGstTools/5.*
-usr/include/${DEB_HOST_MULTIARCH}/qt5/QtMultimediaWidgets/5.*
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtMultimediaQuick/5.*
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtMultimediaWidgets/5.*
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt5Multimedia/Qt5Multimedia_*Plugin.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt5Multimedia/Qt5Multimedia_QSGVideoNodeFactory_EGL.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/libQt5Multimedia.la
 usr/lib/${DEB_HOST_MULTIARCH}/libQt5MultimediaGstTools.la
 usr/lib/${DEB_HOST_MULTIARCH}/libQt5MultimediaQuick.la

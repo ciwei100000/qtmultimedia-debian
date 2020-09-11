@@ -6,6 +6,10 @@ qtmultimedia-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
   * Update to debhelper compat level 13.
     - Drop dh_missing override, --fail-missing is now default behavior.
     - Use ${DEB_HOST_MULTIARCH} substitution in .install files.
+  * Do not install the CMake file for ARM-specific QSGVideoNodeFactory_EGL
+    plugin. That file was referencing libeglvideonode.so plugin, but the -dev
+    package containing it does not depend on libqt5multimedia5-plugins.
+    CMake files for plugins are useless on Linux distributions anyway.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 Sep 2020 11:33:22 +0300
 
