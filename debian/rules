@@ -49,9 +49,6 @@ override_dh_install:
 	# and/or .install.OS files.
 	dh_install
 
-override_dh_missing:
-	dh_missing --fail-missing
-
 override_dh_clean:
 	dh_clean
 
