@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.1 amd64
 libQt5MultimediaWidgets.so.5 libqt5multimediawidgets5 #MINVER#
 * Build-Depends-Package: qtmultimedia5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -7,6 +7,7 @@ libQt5MultimediaWidgets.so.5 libqt5multimediawidgets5 #MINVER#
  Qt_5.12@Qt_5.12 5.12.0
  Qt_5.13@Qt_5.13 5.14.1
  Qt_5.14@Qt_5.14 5.14.1
+ Qt_5.15@Qt_5.15 5.15.1
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -88,6 +89,7 @@ libQt5MultimediaWidgets.so.5 libqt5multimediawidgets5 #MINVER#
  _ZNK12QVideoWidget10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK12QVideoWidget10saturationEv@Qt_5 5.6.0~beta
  _ZNK12QVideoWidget11mediaObjectEv@Qt_5 5.6.0~beta
+ _ZNK12QVideoWidget12videoSurfaceEv@Qt_5 5.15.1
  _ZNK12QVideoWidget15aspectRatioModeEv@Qt_5 5.6.0~beta
  _ZNK12QVideoWidget3hueEv@Qt_5 5.6.0~beta
  _ZNK12QVideoWidget8contrastEv@Qt_5 5.6.0~beta
@@ -98,6 +100,7 @@ libQt5MultimediaWidgets.so.5 libqt5multimediawidgets5 #MINVER#
  _ZNK18QGraphicsVideoItem10nativeSizeEv@Qt_5 5.6.0~beta
  _ZNK18QGraphicsVideoItem11mediaObjectEv@Qt_5 5.6.0~beta
  _ZNK18QGraphicsVideoItem12boundingRectEv@Qt_5 5.6.0~beta
+ _ZNK18QGraphicsVideoItem12videoSurfaceEv@Qt_5 5.15.1
  _ZNK18QGraphicsVideoItem15aspectRatioModeEv@Qt_5 5.6.0~beta
  _ZNK18QGraphicsVideoItem4sizeEv@Qt_5 5.6.0~beta
  _ZNK18QGraphicsVideoItem6offsetEv@Qt_5 5.6.0~beta

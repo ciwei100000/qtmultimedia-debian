@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.1 amd64
 libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
 * Build-Depends-Package: qtmultimedia5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -7,6 +7,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  Qt_5.12@Qt_5.12 5.12.0
  Qt_5.13@Qt_5.13 5.14.1
  Qt_5.14@Qt_5.14 5.14.1
+ Qt_5.15@Qt_5.15 5.15.1
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -19,7 +20,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z19qt_real_to_fractiondPiS_@Qt_5 5.6.0~beta
- _Z22qt_imageFromVideoFrameRK11QVideoFrame@Qt_5 5.6.0~beta
  _ZN10QRadioData11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN10QRadioData11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN10QRadioData14setMediaObjectEP12QMediaObject@Qt_5 5.6.0~beta
@@ -247,6 +247,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QMediaPlayer14setVideoOutputEP12QVideoWidget@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer14setVideoOutputEP18QGraphicsVideoItem@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer14setVideoOutputEP21QAbstractVideoSurface@Qt_5 5.6.0~beta
+ _ZN12QMediaPlayer14setVideoOutputERK7QVectorIP21QAbstractVideoSurfaceE@Qt_5 5.15.1
  _ZN12QMediaPlayer15durationChangedEx@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer15positionChangedEx@Qt_5 5.6.0~beta
  _ZN12QMediaPlayer15seekableChangedEb@Qt_5 5.6.0~beta
@@ -1480,6 +1481,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN7QCamera11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN7QCamera11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN7QCamera12stateChangedENS_5StateE@Qt_5 5.6.0~beta
+ _ZN7QCamera13errorOccurredENS_5ErrorE@Qt_5 5.15.1
  _ZN7QCamera13searchAndLockE6QFlagsINS_8LockTypeEE@Qt_5 5.6.0~beta
  _ZN7QCamera13searchAndLockEv@Qt_5 5.6.0~beta
  _ZN7QCamera13setViewfinderEP12QVideoWidget@Qt_5 5.6.0~beta
@@ -1592,6 +1594,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK11QVideoFrame4bitsEi@Qt_5 5.6.0~beta
  _ZNK11QVideoFrame4bitsEv@Qt_5 5.6.0~beta
  _ZNK11QVideoFrame4sizeEv@Qt_5 5.6.0~beta
+ _ZNK11QVideoFrame5imageEv@Qt_5 5.15.1
  _ZNK11QVideoFrame5widthEv@Qt_5 5.6.0~beta
  _ZNK11QVideoFrame6bufferEv@Qt_5 5.14.1
  _ZNK11QVideoFrame6handleEv@Qt_5 5.6.0~beta

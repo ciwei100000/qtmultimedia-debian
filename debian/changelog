@@ -11,6 +11,7 @@ qtmultimedia-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
     package containing it does not depend on libqt5multimedia5-plugins.
     CMake files for plugins are useless on Linux distributions anyway.
   * Build-depend on libwayland-dev (needed by gstgldisplay_wayland.h).
+  * Update symbols files from the current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 Sep 2020 11:33:22 +0300
 
