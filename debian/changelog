@@ -1,6 +1,5 @@
-qtmultimedia-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.15.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.1.
   * Update to debhelper compat level 13.
@@ -13,7 +12,7 @@ qtmultimedia-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
   * Build-depend on libwayland-dev (needed by gstgldisplay_wayland.h).
   * Update symbols files from the current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 Sep 2020 11:33:22 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 14 Sep 2020 21:48:01 +0300
 
 qtmultimedia-opensource-src (5.14.2-2) unstable; urgency=medium
 
