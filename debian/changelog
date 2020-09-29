@@ -1,5 +1,7 @@
 qtmultimedia-opensource-src (5.14.2-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Build-depend on libwayland-dev (closes: #971122, see also #970324).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Sep 2020 09:41:08 +0300
 
