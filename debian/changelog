@@ -1,11 +1,10 @@
-qtmultimedia-opensource-src (5.15.2-3) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.15.2-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add a patch to increase buffer sizes in tst_QVideoFrame::image() test,
     to fix segmentation fault that sometimes happens (closes: #982973).
   * Update debian/watch: use format 4, and track only 5.15.x releases.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Feb 2021 15:28:46 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 20 Feb 2021 20:37:17 +0300
 
 qtmultimedia-opensource-src (5.15.2-2) unstable; urgency=medium
 
