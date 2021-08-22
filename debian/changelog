@@ -1,3 +1,9 @@
+qtmultimedia-opensource-src (5.15.2-3c1) unstable; urgency=medium
+
+  * Merge tag 'debian/5.15.2-3' into ciwei100000
+
+ -- Xuqing Liu <ciwei100000@gmail.com>  Sun, 22 Aug 2021 08:27:13 -0700
+
 qtmultimedia-opensource-src (5.15.2-3) unstable; urgency=medium
 
   * Add a patch to increase buffer sizes in tst_QVideoFrame::image() test,
