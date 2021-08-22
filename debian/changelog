@@ -1,3 +1,50 @@
+qtmultimedia-opensource-src (5.15.2-3) unstable; urgency=medium
+
+  * Add a patch to increase buffer sizes in tst_QVideoFrame::image() test,
+    to fix segmentation fault that sometimes happens (closes: #982973).
+  * Update debian/watch: use format 4, and track only 5.15.x releases.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 20 Feb 2021 20:37:17 +0300
+
+qtmultimedia-opensource-src (5.15.2-2) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.5.1, no changes needed.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 11 Dec 2020 11:31:59 +0300
+
+qtmultimedia-opensource-src (5.15.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.2.
+  * Build-depend only on the needed documentation tools, not on the
+    large qttools5-dev-tools package.
+  * Remove explicit libwayland-dev build-dependency (#970324 was fixed).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 22 Nov 2020 15:15:23 +0300
+
+qtmultimedia-opensource-src (5.15.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 28 Oct 2020 21:53:32 +0300
+
+qtmultimedia-opensource-src (5.15.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.1.
+  * Update to debhelper compat level 13.
+    - Drop dh_missing override, --fail-missing is now default behavior.
+    - Use ${DEB_HOST_MULTIARCH} substitution in .install files.
+  * Do not install the CMake file for ARM-specific QSGVideoNodeFactory_EGL
+    plugin. That file was referencing libeglvideonode.so plugin, but the -dev
+    package containing it does not depend on libqt5multimedia5-plugins.
+    CMake files for plugins are useless on Linux distributions anyway.
+  * Build-depend on libwayland-dev (needed by gstgldisplay_wayland.h).
+  * Update symbols files from the current build log.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 14 Sep 2020 21:48:01 +0300
+
 qtmultimedia-opensource-src (5.14.2-3-c1) unstable; urgency=medium
 
   * Removed symbols files
